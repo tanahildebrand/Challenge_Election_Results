@@ -31,7 +31,7 @@ We were provided voting data from the Colorado board of elections, with details 
   Winning Percentage: 73.8%
   ```
 ## Summary
-The exact script can be reused again for another similar election without any coding changes. The use of the "os.path.join" logic will allow a new file to be referenced as long as the folder hierarcy of the file and the script remain the same. The voting data file (csv format) should be in a folder called "Resources" which lives in the same folder as the script. In addition, a blank folder called "analysis" should live at this level to allow for the output.
+The exact script can be reused again for another similar election without any coding changes. The use of the "os.path.join" logic will allow a new file to be referenced as long as the folder hierarcy of the script and data remain the same. The voting data file (csv format) should be in a folder called "Resources" which lives in the same folder as the script. In addition, a blank folder called "analysis" should live at this level to allow for the output. A copy of the gitignore file should live here as well.
 
 As example, I copied the original analysis, keeping the script, gitignore file, and the two folders (Resources/analysis). I then added 100 extra votes to the original data to mock up new results, and saved it in the Resources folder. When I rerun the script, I am provided updated outcomes.
   ```
